@@ -1,0 +1,13 @@
+# Algoritmo 54
+# Calcular e imprimir a área de um triângulo.
+
+prog alg54
+  real base, altura, area;
+  imprima "\nBase do triangulo: ";
+  leia base;
+  imprima "\nAltura do triangulo: ";
+  leia altura;
+  area <- base * altura / 2;
+  imprima "\nArea: ", area;
+  imprima "\n";
+fimprog

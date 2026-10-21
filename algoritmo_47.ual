@@ -1,0 +1,16 @@
+# Algoritmo 47
+# Ler um número no formato CDU e imprimir invertido (UDC).
+# O resultado é guardado em outra variável antes de imprimir.
+
+prog alg47
+  int numero, centena, dezena, unidade, invertido;
+  imprima "\nDigite um numero de 3 digitos: ";
+  leia numero;
+  centena <- numero div 100;
+  dezena <- (numero div 10) % 10;
+  unidade <- numero % 10;
+  invertido <- unidade * 100 + dezena * 10 + centena;
+  imprima "\nnumero: ", numero;
+  imprima "\ninvertido: ", invertido;
+  imprima "\n";
+fimprog

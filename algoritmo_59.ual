@@ -1,0 +1,13 @@
+# Algoritmo 59
+# Ler os catetos de um triângulo retângulo e imprimir a hipotenusa.
+
+prog alg59
+  real cateto1, cateto2, hipotenusa;
+  imprima "\nPrimeiro cateto: ";
+  leia cateto1;
+  imprima "\nSegundo cateto: ";
+  leia cateto2;
+  hipotenusa <- raiz(cateto1 ** 2 + cateto2 ** 2);
+  imprima "\nHipotenusa: ", hipotenusa;
+  imprima "\n";
+fimprog

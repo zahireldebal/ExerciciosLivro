@@ -1,0 +1,7 @@
+# Algoritmo 28
+# Imprimir a mensagem: "É PRECISO FAZER TODOS OS ALGORITMOS PARA APRENDER".
+
+prog alg28
+  imprima "\nE PRECISO FAZER TODOS OS ALGORITMOS PARA APRENDER";
+  imprima "\n";
+fimprog

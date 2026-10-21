@@ -1,0 +1,17 @@
+# Algoritmo 40
+# Ler dois inteiros e imprimir: dividendo, divisor, quociente e resto.
+
+prog alg40
+  int dividendo, divisor, quociente, resto;
+  imprima "\nDividendo: ";
+  leia dividendo;
+  imprima "\nDivisor: ";
+  leia divisor;
+  quociente <- dividendo div divisor;
+  resto <- dividendo % divisor;
+  imprima "\n\ndividendo: ", dividendo;
+  imprima "\ndivisor: ", divisor;
+  imprima "\nquociente: ", quociente;
+  imprima "\nresto: ", resto;
+  imprima "\n";
+fimprog

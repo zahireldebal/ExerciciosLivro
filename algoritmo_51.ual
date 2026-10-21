@@ -1,0 +1,13 @@
+# Algoritmo 51
+# Ler o raio de um círculo e imprimir perímetro (circunferência) e área.
+
+prog alg51
+  real raio, perimetro, area;
+  imprima "\nRaio: ";
+  leia raio;
+  perimetro <- 2 * pi * raio;
+  area <- pi * raio ** 2;
+  imprima "\nperimetro: ", perimetro;
+  imprima "\narea: ", area;
+  imprima "\n";
+fimprog

@@ -1,0 +1,13 @@
+# Algoritmo 33
+# Ler dois números inteiros e imprimi-los.
+
+prog alg33
+  int x, y;
+  imprima "\nDigite o primeiro numero: ";
+  leia x;
+  imprima "\nDigite o segundo numero: ";
+  leia y;
+  imprima "\nPrimeiro: ", x;
+  imprima "\nSegundo: ", y;
+  imprima "\n";
+fimprog

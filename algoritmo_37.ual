@@ -1,0 +1,13 @@
+# Algoritmo 37
+# Ler dois inteiros e imprimir o produto.
+
+prog alg37
+  int a, b, produto;
+  imprima "\nPrimeiro numero: ";
+  leia a;
+  imprima "\nSegundo numero: ";
+  leia b;
+  produto <- a * b;
+  imprima "\nProduto: ", produto;
+  imprima "\n";
+fimprog

@@ -1,0 +1,21 @@
+# Algoritmo 57
+# Ler as notas PR1 e PR2 e imprimir a média final truncada e arredondada.
+# realint() arredonda para o inteiro mais próximo; por isso:
+#   - truncar  = realint(x - 0.5)
+#   - arredondar = realint(x)
+# O pequeno valor somado (0.001) evita erro nos casos terminados em .5.
+
+prog alg57
+  real pr1, pr2, media;
+  int truncada, arredondada;
+  imprima "\nNota PR1: ";
+  leia pr1;
+  imprima "\nNota PR2: ";
+  leia pr2;
+  media <- (pr1 + pr2) / 2;
+  truncada <- realint(media - 0.5 + 0.001);
+  arredondada <- realint(media + 0.001);
+  imprima "\nmedia truncada: ", truncada;
+  imprima "\nmedia arredondada: ", arredondada;
+  imprima "\n";
+fimprog

@@ -1,0 +1,11 @@
+# Algoritmo 38
+# Ler um número real e imprimir a terça parte dele.
+
+prog alg38
+  real n, terca;
+  imprima "\nDigite um numero real: ";
+  leia n;
+  terca <- n / 3;
+  imprima "\nTerca parte: ", terca;
+  imprima "\n";
+fimprog

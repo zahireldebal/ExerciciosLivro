@@ -1,0 +1,12 @@
+# Algoritmo 43
+# Ler um número e imprimir o logaritmo dele na base 10.
+# log(x) é o logaritmo natural; mudança de base: log10(x) = ln(x)/ln(10).
+
+prog alg43
+  real n, resultado;
+  imprima "\nDigite o logaritmando: ";
+  leia n;
+  resultado <- log(n) / log(10);
+  imprima "\nLogaritmo na base 10: ", resultado;
+  imprima "\n";
+fimprog

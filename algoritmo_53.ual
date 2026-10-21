@@ -1,0 +1,15 @@
+# Algoritmo 53
+# Ler os lados a, b, c de um paralelepípedo e imprimir a diagonal.
+
+prog alg53
+  real a, b, c, diagonal;
+  imprima "\nLado a: ";
+  leia a;
+  imprima "\nLado b: ";
+  leia b;
+  imprima "\nLado c: ";
+  leia c;
+  diagonal <- raiz(a ** 2 + b ** 2 + c ** 2);
+  imprima "\nDiagonal: ", diagonal;
+  imprima "\n";
+fimprog

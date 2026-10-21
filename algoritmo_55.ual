@@ -1,0 +1,13 @@
+# Algoritmo 55
+# Calcular e imprimir a área de um losango.
+
+prog alg55
+  real diagMaior, diagMenor, area;
+  imprima "\nDiagonal maior: ";
+  leia diagMaior;
+  imprima "\nDiagonal menor: ";
+  leia diagMenor;
+  area <- diagMaior * diagMenor / 2;
+  imprima "\nArea do losango: ", area;
+  imprima "\n";
+fimprog

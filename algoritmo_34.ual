@@ -1,0 +1,13 @@
+# Algoritmo 34
+# Ler um inteiro e imprimir seu sucessor e seu antecessor.
+
+prog alg34
+  int n, sucessor, antecessor;
+  imprima "\nDigite um numero inteiro: ";
+  leia n;
+  sucessor <- n + 1;
+  antecessor <- n - 1;
+  imprima "\nSucessor: ", sucessor;
+  imprima "\nAntecessor: ", antecessor;
+  imprima "\n";
+fimprog

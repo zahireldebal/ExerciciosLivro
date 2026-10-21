@@ -1,0 +1,14 @@
+# Algoritmo 45
+# Ler um número e imprimir: numero, quadrado e raiz quadrada.
+
+prog alg45
+  real n, quadrado, raizQ;
+  imprima "\nDigite um numero: ";
+  leia n;
+  quadrado <- n ** 2;
+  raizQ <- raiz(n);
+  imprima "\nnumero: ", n;
+  imprima "\nquadrado: ", quadrado;
+  imprima "\nraiz quadrada: ", raizQ;
+  imprima "\n";
+fimprog

@@ -1,0 +1,14 @@
+# Algoritmo 56
+# Ler nome e idade e imprimir: nome, idade.
+
+prog alg56
+  string nome;
+  int idade;
+  imprima "\nNome: ";
+  leia nome;
+  imprima "\nIdade: ";
+  leia idade;
+  imprima "\n\nnome: ", nome;
+  imprima "\nidade: ", idade;
+  imprima "\n";
+fimprog

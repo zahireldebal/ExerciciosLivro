@@ -1,0 +1,16 @@
+# Algoritmo 35
+# Ler nome, endereço e telefone e imprimi-los.
+
+prog alg35
+  string nome, endereco, telefone;
+  imprima "\nNome: ";
+  leia nome;
+  imprima "\nEndereco: ";
+  leia endereco;
+  imprima "\nTelefone: ";
+  leia telefone;
+  imprima "\n\nNome: ", nome;
+  imprima "\nEndereco: ", endereco;
+  imprima "\nTelefone: ", telefone;
+  imprima "\n";
+fimprog
