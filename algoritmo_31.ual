@@ -1,9 +1,0 @@
-# Algoritmo 31
-# Imprimir a média aritmética entre 8, 9 e 7.
-
-prog alg31
-  real media;
-  media <- (8 + 9 + 7) / 3;
-  imprima "\nMedia aritmetica: ", media;
-  imprima "\n";
-fimprog

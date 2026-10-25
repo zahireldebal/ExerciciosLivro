@@ -1,7 +1,0 @@
-# Algoritmo 29
-# Imprimir seu nome.
-
-prog alg29
-  imprima "\nMeu nome e: <coloque seu nome aqui>";
-  imprima "\n";
-fimprog
